@@ -8,3 +8,7 @@ This shell script requires 'expect' to be installed (that is 'apt-get install ex
 machines whose IPs are written in a file called 'machineslist.txt' (that you have to create) located in the cbce.sh's directory . Every host 
 must be written on its own line. Beside adding more commands, please customise USERNAME, USERPASSWORD, ENAPASSWORD, COMMAND<1|2|3> inside 
 cbce.sh.
+
+- DNS2go.sh
+
+Parse multiple SOA lines from BIND rev zone and creates a csv IP-DNS.
